@@ -1,0 +1,74 @@
+/**
+ * 
+ * AJAX / Posts / Get Likes CSS
+ * 
+ */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Default
+/*
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Layout
+/*
+/* ------------------------------------------------------------------------- */
+div.users-list
+{
+	/*
+	overflow: hidden;
+	*/
+	margin-top: 0px;
+	position: relative;
+}
+
+div.users-list-inner
+{
+	margin: 0 0px;
+}
+
+div.users-item div.users-item-content
+{
+	min-height: 60px;
+	padding: 8px 0;
+	position: relative;
+}
+
+div.users-item div.users-item-image
+{
+	height: 50px;
+	text-align: center;
+}
+	div.users-item-image img.img-thumbnail
+	{
+		max-height: 50px;
+		max-width: 50px;
+	}
+
+div.users-item div.users-item-details
+{
+	margin-top: 7px;
+	text-align: center;
+}
+	div.users-item-details h3.user-name
+	{
+		color: #e74c3c;
+		font-size: 13px;
+		font-weight: normal;
+		margin-bottom: 0px;
+		margin-top: 0;
+	}
+		div.users-item-details h3.user-name a
+		{
+			color: #e74c3c;
+			text-decoration: none;
+		}
+		div.users-item-details h3.user-name a:hover
+		{
+			color: #e74c3c;
+			text-decoration: underline;
+		}
+/* ------------------------------------------------------------------------- */

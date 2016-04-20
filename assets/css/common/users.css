@@ -1,0 +1,98 @@
+/**
+ * 
+ * Users CSS
+ * 
+ */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Default
+/*
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Layout
+/*
+/* ------------------------------------------------------------------------- */
+div.users-list
+{
+	/*
+	overflow: hidden;
+	*/
+	margin-top: 20px;
+	position: relative;
+}
+
+div.users-list-inner
+{
+	margin: 0 10px;
+}
+
+div.users-list-inner div.users-item
+{
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(25, 25, 25, 0.3);
+	float: left;
+	margin-bottom: 25px;
+	-moz-box-shadow: 0 1px 3px rgba(25, 25, 25, 0.3);
+	-webkit-box-shadow: 0 1px 3px rgba(25, 25, 25, 0.3);
+	-o-box-shadow: 0 1px 3px rgba(25, 25, 25, 0.3);
+}
+
+div.users-item div.users-item-content
+{
+	min-height: 100px;
+	padding: 12px 0;
+	position: relative;
+}
+
+div.users-item div.users-item-image
+{
+	height: 80px;
+	text-align: center;
+}
+	div.users-item-image img.img-thumbnail
+	{
+		max-height: 80px;
+		max-width: 80px;
+	}
+
+div.users-item div.users-item-details
+{
+	margin-top: 10px;
+	text-align: center;
+}
+	div.users-item-details h3.user-name
+	{
+		color: #e74c3c;
+		font-size: 15px;
+		font-weight: normal;
+		margin-bottom: 4px;
+		margin-top: 0;
+	}
+		div.users-item-details h3.user-name a
+		{
+			color: #e74c3c;
+			text-decoration: none;
+		}
+		div.users-item-details h3.user-name a:hover
+		{
+			color: #e74c3c;
+			text-decoration: underline;
+		}
+	div.users-item-details span
+	{
+		color: #777;
+		display: block;
+		font-size: 12px;
+		max-height: 14px;
+		text-overflow: ellipsis;
+	}
+div.users-item div.user-follow-actions
+{
+	margin-top: 7px;
+	text-align: center;
+}
+/* ------------------------------------------------------------------------- */

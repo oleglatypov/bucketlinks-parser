@@ -1,0 +1,66 @@
+/**
+ * 
+ * User / Profile CSS
+ * 
+ */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Default
+/*
+/* ------------------------------------------------------------------------- */
+div.user-profile-info div.user-details
+{
+	padding-left: 0;
+}
+/* ------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* User Details
+/*
+/* ------------------------------------------------------------------------- */
+h3.profile-user-name
+{
+	color: #e74c3c;
+	font-size: 22px;
+	font-weight: normal;
+	margin-top: 0px;
+}
+div.user-details ul.list-group
+{
+	margin-bottom: 0;
+}
+div.user-details li.list-group-item
+{
+	font-size: 13px;
+	padding: 5px 15px;
+}
+
+div.user-follow-stats h3
+{
+	font-size: 11px;
+	margin-top: 39px;
+}
+div.user-follow-stats span.label
+{
+	display: block;
+	font-size: 11px;
+	padding: 17px 10px;
+}
+	div.user-follow-stats span.label p
+	{
+		font-size: 30px;
+		font-weight: normal;
+		margin: 0 0 4px 0;
+		padding: 0;
+	}
+div.user-follow-stats a
+{
+	text-decoration: none;
+}
+div.user-follow-stats span.label-primary
+{
+	background: #1abc9c;
+}
+/* ------------------------------------------------------------------------- */

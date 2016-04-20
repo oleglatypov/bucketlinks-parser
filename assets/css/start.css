@@ -1,0 +1,406 @@
+/**
+ * 
+ * Start CSS
+ * 
+ */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Default
+/*
+/* ------------------------------------------------------------------------- */
+*
+{
+	/*
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+	*/
+}
+*,
+*:before,
+*:after
+{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html
+{
+	margin: 0;
+	min-height: 100%;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+body
+{
+	background: #eee;
+	color: #222;
+	font-family: 'Open Sans', 'Arial', 'Tahoma', sans-serif;
+	font-size: 13px;
+	margin: 0 0 65px 0;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+a,
+img
+{
+	border: none;
+}
+
+textarea
+{
+	resize: 0;
+	resize: none;
+}
+/* ------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Layout
+/*
+/* ------------------------------------------------------------------------- */
+.w100
+{
+	width: 100%;
+}
+.h100
+{
+	height: 100%;
+}
+
+.caps
+{
+	text-transform: uppercase;
+}
+.bold
+{
+	font-weight: bold;
+}
+.condensed
+{
+	letter-spacing: -1px;
+}
+
+.font-11
+{
+	font-size: 11px;
+}
+.font-13
+{
+	font-size: 13px;
+}
+.font-14
+{
+	font-size: 14px;
+}
+
+.display-table
+{
+	display: table;
+}
+.display-table-cell
+{
+	display: table-cell;
+}
+
+.centered-h
+{
+	text-align: center;
+}
+.centered-v
+{
+	vertical-align: middle;
+}
+
+.margin-top-6
+{
+	margin-top: 6px;
+}
+.margin-top-10
+{
+	margin-top: 10px;
+}
+.margin-top-12
+{
+	margin-top: 12px;
+}
+.margin-top-14
+{
+	margin-top: 14px;
+}
+.margin-top-16
+{
+	margin-top: 16px;
+}
+.margin-top-20
+{
+	margin-top: 20px;
+}
+.margin-top-30
+{
+	margin-top: 30px;
+}
+
+.no-right-padding
+{
+	padding-right: 0px;
+}
+
+.clear
+{
+	clear: both;
+}
+.not-visible,
+.hidden,
+.hid
+{
+	display: none;
+}
+
+.relative
+{
+	position: relative;
+}
+
+.black
+{
+	color: #000;
+}
+/* ------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Layout: Header
+/*
+/* ------------------------------------------------------------------------- */
+body
+{
+	padding-top: 0px;
+	min-height: 100%;
+}
+/* ------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Layout: Content
+/*
+/* ------------------------------------------------------------------------- */
+div#container-main
+{
+	margin: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+div.row-logo
+{
+	background: #13405c;
+	color: #fff;
+	height: 200px;
+	min-width: 100%;
+}
+	div.row-logo div.logo
+	{
+		height: 45px;
+		left: 50%;
+		margin-left: -120px;
+		margin-top: -22px;
+		position: absolute;
+		top: 50%;
+		width: 241px;
+	}
+		.row-logo div.logo img
+		{
+			height: 45px;
+			width: 241px;
+		}
+
+div.row-intro
+{
+	background: #18bc9c url('/assets/images/common/bg-pattern.png');
+	color: #000;
+	min-height: 340px;
+	min-width: 100%;
+}
+	div.row-intro div.container
+	{
+		min-height: 340px;
+		margin: 0 auto;
+	}
+
+	div.row-intro div.column
+	{
+		min-height: 340px;
+	}
+		div.row-intro div.column div.column-inner
+		{
+			background: rgba(255, 255, 255, 0.7);
+			border-radius: 7px;
+			min-height: 300px;
+			margin: 20px auto;
+			text-align: center;
+		}
+			div.column-inner h1
+			{
+				color: #13405c;
+				font-size: 32px;
+				font-weight: 600;
+				letter-spacing: -1px;
+				padding-bottom: 30px;
+				padding-top: 30px;
+			}
+			div.column-inner p
+			{
+				color: #000;
+				line-height: 1.6;
+				font-size: 16px;
+				font-weight: normal;
+				margin: 0 30px;
+			}
+
+div.row-button
+{
+	color: #000;
+	padding: 30px 0px;
+	min-width: 100%;
+}
+	div.row-button button
+	{
+		font-size: 15px;
+		font-weight: 600;
+	}
+	div.row-button p.sign-up
+	{
+		font-size: 14px;
+		font-weight: 700;
+		margin-top: 20px;
+	}
+		div.row-button p.sign-up a
+		{
+			color: #16a085;
+			text-decoration: none;
+		}
+		div.row-button p.sign-up a:hover
+		{
+			text-decoration: underline;
+		}
+
+a.muted
+{
+	color: #777;
+	text-decoration: underline;
+}
+/* ------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Layout: Footer
+/*
+/* ------------------------------------------------------------------------- */
+div.footer
+{
+	background: #fff;
+	bottom: 0;
+	box-shadow: none;
+	border: 0;
+	border-color: #fff;
+	border-radius: 0;
+	border-width: 0 0 0px;
+	height: 65px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	-webkit-box-shadow: none;
+}
+	div.footer div.container
+	{
+		color: #777;
+		line-height: 1;
+		margin: 15px auto;
+		max-width: 980px;
+		min-height: 35px;
+		width: auto;
+	}
+	
+	div.footer div.row
+	{
+		margin: 0 auto;
+	}
+
+	div.footer div.row a
+	{
+		color: #777;
+		text-decoration: none;
+	}
+	div.footer div.row a:hover
+	{
+		color: #000;
+		text-decoration: underline;
+	}
+
+	div.footer div.row p
+	{
+		color: #777;
+		font-size: 10px;
+		margin: 0 0 12px 0;
+		padding: 0;
+	}
+	div.footer div.row ul,
+	div.footer div.row ul li
+	{
+		color: #777;
+		font-size: 10px;
+		margin-bottom: 0;
+		margin-top: 0;
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+/* ------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Media Queries: Extra small devices, phones
+/*
+/* ------------------------------------------------------------------------- */
+@media(max-width: 767px) {
+	
+}
+/* ------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Media Queries: Small devices (tablets, 768px and up)
+/*
+/* ------------------------------------------------------------------------- */
+@media (min-width: 768px) {
+	
+}
+/* ------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Media Queries: Medium devices (desktops, 992px and up)
+/*
+/* ------------------------------------------------------------------------- */
+@media (min-width: 992px) {
+	
+}
+/* ------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Media Queries: Large devices (large desktops, 1200px and up)
+/*
+/* ------------------------------------------------------------------------- */
+@media (min-width: 1200px) {
+	
+}
+/* ------------------------------------------------------------------------- */

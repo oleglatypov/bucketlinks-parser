@@ -1,0 +1,30 @@
+/**
+ * 
+ * AJAX / Profile / Get Profile CSS
+ * 
+ */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Layout: Content
+/*
+/* ------------------------------------------------------------------------- */
+div.profile-info .form-group
+{
+	margin-bottom: 10px;
+}
+div.profile-info label.title
+{
+	color: #0068A8;
+	font-size: 12px;
+	line-height: 1.8;
+}
+div.options label
+{
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 0px;
+	margin-left: 3px;
+}
+/* ------------------------------------------------------------------------- */

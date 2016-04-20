@@ -1,0 +1,299 @@
+/**
+ * 
+ * Posts CSS
+ * 
+ */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Default
+/*
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- */
+/*
+/* Layout
+/*
+/* ------------------------------------------------------------------------- */
+div.posts-list
+{
+	overflow: hidden;
+}
+
+div.posts-list-inner
+{
+	margin: 0 auto;
+}
+
+div.posts-list-inner div.post-item
+{
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(25, 25, 25, 0.3);
+	float: left;
+	margin: 0 1% 25px 1%;
+	max-width: 456px;
+	min-width: 300px;
+	width: 48%;
+	-moz-box-shadow: 0 1px 3px rgba(25, 25, 25, 0.3);
+	-webkit-box-shadow: 0 1px 3px rgba(25, 25, 25, 0.3);
+	-o-box-shadow: 0 1px 3px rgba(25, 25, 25, 0.3);
+}
+
+div.post-item div.post-item-header
+{
+	height: 64px;
+	max-height: 64px;
+	overflow: hidden;
+	position: relative;
+}
+div.post-item div.post-item-author
+{
+	height: 40px;
+	left: 12px;
+	line-height: 40px;
+	position: absolute;
+	top: 12px;
+	width: 40px;
+}
+	div.post-item-author img.img-thumbnail
+	{
+		height: 40px;
+		margin-right: 8px;
+		width: 40px;
+	}
+div.post-item div.post-item-author-info
+{
+	left: 62px;
+	line-height: 1;
+	position: absolute;
+	top: 11px;
+}
+	div.post-item-author-info a
+	{
+		color: #000;
+		font-size: 13px;
+	}
+	div.post-item-author-info a:hover
+	{
+		color: #e74C3c;
+		text-decoration: underline;
+	}
+	div.post-item-author-info p
+	{
+		line-height: 1.3;
+		margin: 0;
+		padding: 0;
+	}
+	div.post-item-author-info p.post-item-date
+	{
+		color: #777;
+		font-size: 12px;
+	}
+div.post-item div.post-item-actions
+{
+	font-size: 12px;
+	line-height: 1;
+	position: absolute;
+	right: 12px;
+	top: 16px;
+}
+	div.post-item-actions a
+	{
+		text-decoration: none;
+	}
+	div.post-item-actions a:hover
+	{
+		color: #e74C3c;
+		text-decoration: none;
+	}
+
+div.post-item div.post-item-image
+{
+	background: #fff;
+	height: 270px;
+	margin-bottom: 0px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+	div.post-item-image img.media
+	{
+		display: block;
+		height: auto;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	div.post-item-image div.post-item-video-link
+	{
+		background: url('/assets/images/icons/icon-play-32x32.png') no-repeat center center;
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+		div.post-item-video-link a
+		{
+			cursor: pointer;
+			height: 100%;
+			display: block;
+			text-decoration: none;
+			width: 100%;
+		}
+
+div.post-item div.post-item-content
+{
+	border-top: 1px solid #ddd;
+	padding: 12px;
+	position: relative;
+}
+	div.post-item-content h2.post-title
+	{
+		color: #000;
+		font-size: 17px;
+		line-height: 1.3;
+		margin: 0 0 10px 0;
+		padding: 0;
+	}
+	div.post-item-content h2.post-title a
+	{
+		color: #000;
+		display: block;
+		text-decoration: none;
+	}
+	div.post-item-content h2.post-title a:hover
+	{
+		color: #e74C3c;
+	}
+	div.post-item-content p.post-intro
+	{
+		color: #777;
+		font-size: 13px;
+		line-height: 1.4;
+		margin: 0;
+		padding: 0;
+	}
+
+div.post-item div.post-categories-tags
+{
+	border-top: 1px solid #ddd;
+	font-size: 11px;
+	min-height: 48px;
+	padding: 12px;
+	position: relative;
+}
+	div.post-categories
+	{
+		font-size: 12px;
+		margin-bottom: 0px;
+		margin-right: 150px;
+		position: relative;
+	}
+		div.post-categories a:hover
+		{
+			color: #e74C3c;
+		}
+	div.post-tags
+	{
+		margin-right: 150px;
+		position: relative;
+	}
+		div.post-tags a
+		{
+			color: #0084B4;
+		}
+		div.post-tags a:hover
+		{
+			color: #e74C3c;
+		}
+	div.post-item div.post-actions
+	{
+		font-size: 11px;
+		position: absolute;
+		right: 12px;
+		top: 12px;
+	}
+		div.post-actions a.btn
+		{
+			margin-left: 5px;
+		}
+		div.post-actions a.btn-default:hover
+		{
+			background: #e5e5e5;
+			color: #333;
+		}
+
+div.post-item div.post-item-comments
+{
+	margin-bottom: 12px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+	div.post-item-comments-inner
+	{
+		border-top: 1px solid #ddd;
+		padding-top: 12px;
+	}
+		div.post-item-comments-inner .input-sm,
+		div.post-item-comments-inner .btn-xs
+		{
+			font-size: 11px;
+		}
+		div.post-comment-small
+		{
+			border-left: 2px solid #ddd;
+			padding-left: 6px;
+			font-size: 11px;
+			margin-bottom: 12px;
+			position: relative;
+		}
+		div.post-comment-small p
+		{
+			margin: 0;
+			padding: 0;
+		}
+		div.post-comment-small p.comment-author
+		{
+			color: #000;
+			font-size: 11px;
+			margin-bottom: 2px;
+		}
+			div.post-comment-small p.comment-author span.date
+			{
+				color: #aaa;
+				font-weight: normal;
+			}
+		div.post-comment-small p.comment-text
+		{
+			color: #777;
+			font-size: 11px;
+		}
+			div.post-comment-small p.comment-text a
+			{
+				color: #0084B4;
+				text-decoration: none;
+			}
+			div.post-comment-small p.comment-text a:hover
+			{
+				color: #0084B4;
+				text-decoration: underline;
+			}
+		div.post-comment-small div.comment-actions
+		{
+			font-size: 11px;
+			position: absolute;
+			right: 0;
+			top: 0;
+			visibility: hidden;
+		}
+			div.comment-actions a,
+			div.comment-actions a:hover
+			{
+				text-decoration: none;
+			}
+		div.post-comment-small:hover div.comment-actions
+		{
+			visibility: visible;
+		}
+/* ------------------------------------------------------------------------- */
